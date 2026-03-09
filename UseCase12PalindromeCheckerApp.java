@@ -1,7 +1,7 @@
 
     import java.util.*;
 
-    public class UseCase12PalindromeCheckerApp {
+    public class PalindromeCheckerApp {
         public static void main(String[] args) {
             String input = args.length > 0 ? args[0] : "";
             PalindromeStrategy strategy = new StackStrategy();
